@@ -17,7 +17,7 @@ public class RegisterRequestValidator : AbstractValidator<RegisterRequest>
             .NotNull().WithMessage("Password is required")
             .MaximumLength(50).WithMessage("Password cannot be greater that 50 characters");
         RuleFor(x=>x.PersonName)
-            .NotNull().WithMessage("PersonName is required")
+            .NotNull().WithMessage("PersonName cannot be blank")
             .MaximumLength(50).WithMessage("PersonName cannot be greater that 50 characters");
         RuleFor(x=>x.Gender)
             .IsInEnum();
