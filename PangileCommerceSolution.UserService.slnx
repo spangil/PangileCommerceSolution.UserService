@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="PangileCommerce.API/PangileCommerce.API.csproj" />
+  <Project Path="PangileCommerce.Core/PangileCommerce.Core.csproj" />
+  <Project Path="PangileCommerce.Infrastructure/PangileCommerce.Infrastructure.csproj" />
+</Solution>
